@@ -3,7 +3,7 @@
 </h1>
 
 <h2 align="center"> 
-	  Calculadora de Dosimetria das Penas Administrativas
+	  Calculadora de Pena Disciplinar
 </h2>
 
 <p align="center">
