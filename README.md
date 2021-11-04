@@ -48,7 +48,7 @@ As seguintes tecnologias foram utilizadas na construção do projeto:
 
 # 🔗 Link do projeto
 
-- Link de demonstração do projeto: [Calculadora de Dosimetria das Penas Administrativas](https://calculadora-dosimetria.vercel.app/)
+- Link de demonstração do projeto: [Calculadora de Pena Disciplinar](https://calculadora.secont.es.gov.br/)
   <br>
 
 # 🚀 Como executar
@@ -56,8 +56,8 @@ As seguintes tecnologias foram utilizadas na construção do projeto:
 Clone o projeto e acesse a pasta.
 
 ```
-$ git clone https://github.com/rodrigorvix/calculadora-dosimetria.git
-$ cd calculadora-dosimetria
+$ git clone https://github.com/devsecont/calculadora.git
+$ cd calculadora
 ```
 
 Siga os passos abaixo:
