@@ -12,7 +12,6 @@
  <a href="#🛠-tecnologias">Tecnologias</a> • 
  <a href="#🔗-link-do-projeto">Link do projeto</a> • 
  <a href="#🚀-como-executar">Como executar</a> •
- <a href="#📚-aprendizados">Aprendizados</a> • 
  <a href="#👨‍💻-autor">Autor</a> • 
  
 </p>
@@ -74,19 +73,6 @@ $ yarn start
 O aplicativo estará disponível para acesso pelo seu navegador em http://localhost:3000
  <br>
 
-# 📚 Aprendizados
- 
-
- ## React:
-    - Conceitos e uso de componentes, propriedades e estados;
-    - Hooks;
-    - Contextos.
-
- ## TypeScript:
-    - Tipagem de variáveis;
-    - Melhoria na descoberta de falhas e bugs.
-  
-  <br>
   
 # 👨‍💻 Autor
 
