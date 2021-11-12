@@ -268,7 +268,18 @@ export const Result = () => {
   const selectedTypification = contextResults.selectedTypifications;
   let listResults: Array<ResultTypification> = [];
 
-  const incompatibilityTerm = resultSummationDegrees > 120 ? 60 : Math.floor(resultSummationDegrees / 3.333 + 24) ;
+  const incompatibilityTerm = calcIncompatibilityTerm();
+
+  function calcIncompatibilityTerm() {
+    if(resultSummationDegrees > 120) {
+      return 60;
+    }
+    else if(resultSummationDegrees < 0) {
+      return 24;
+    }else {
+      return Math.floor(resultSummationDegrees / 3.333 + 24);
+    }
+  }
 
   function penaltyTypificationOne() {
     if (resultSummationDegrees <= 30) {

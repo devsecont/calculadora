@@ -113,7 +113,7 @@ export const Typification = () => {
           <tr>
             <th><IconTrash clickReset={handleResetSelected}/></th>
             <th>
-              Tipificações ({contextSelected.selectedTypifications.length} selecionadas)
+              Tipificações - {contextSelected.selectedTypifications.length} selecionada(s)
             </th>
           </tr>
         </thead>
