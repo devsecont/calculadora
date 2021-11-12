@@ -14,7 +14,7 @@ export const ParametersPhaseTwo = () => {
 
   const contextResults = useContext(GlobalContext);
 
-  const summationDegreesPhaseTwo = Math.floor(((contextResults.resultDegressPhaseOne * +inputAggravating) / 6) + ((contextResults.resultDegressPhaseOne * Number(-inputMitigating)) / 6));
+  const summationDegreesPhaseTwo = calcSummationDegreesPhaseTwo();
 
   const recurrence = contextResults.recurrence;
   
@@ -24,6 +24,14 @@ export const ParametersPhaseTwo = () => {
   
   function handleRecurrence(event:React.ChangeEvent<HTMLInputElement>) {
     event.target.checked ? contextResults.setRecurrence(true) : contextResults.setRecurrence(false)
+  }
+
+  function calcSummationDegreesPhaseTwo() {
+    if(contextResults.resultDegressPhaseOne >= 0) {
+      return Math.floor(((contextResults.resultDegressPhaseOne * +inputAggravating) / 6) + ((contextResults.resultDegressPhaseOne * Number(-inputMitigating)) / 6));
+    }else {
+      return Math.floor(((contextResults.resultDegressPhaseOne * +inputMitigating) / 6) + ((contextResults.resultDegressPhaseOne * Number(-inputAggravating)) / 6));
+    }
   }
  
   function handleResetInput () {
