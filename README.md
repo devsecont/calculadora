@@ -48,7 +48,7 @@ As seguintes tecnologias foram utilizadas na construção do projeto:
 
 # 🔗 Link do projeto
 
-- Link de demonstração do projeto: [Calculadora de Pena Disciplinar](https://calculadora.secont.es.gov.br/)
+- Link do projeto: [Calculadora de Pena Disciplinar](https://calculadora.secont.es.gov.br/)
   <br>
 
 # 🚀 Como executar
